@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.0-0-g9aa0fdb  Build Version: 1.5.7004.21443
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="CleaningCar" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find CleaningCar)/urdf/CleaningCar.gazebo.xacro"/>
+  <xacro:include filename="$(find CleaningCar)/urdf/common_properties.xacro"/>
+ <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.091674 -0.0063891 0.27463"
+        rpy="0 0 0" />
+      <mass
+        value="41.078" />
+      <inertia
+        ixx="3.3108"
+        ixy="0.0075275"
+        ixz="-0.016249"
+        iyy="3.705"
+        iyz="0.0030066"
+        izz="4.3412" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0.9451 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="right_wheel_Link">
+    <inertial>
+      <origin
+        xyz="0.00072363 0.025159 -0.00044959"
+        rpy="0 0 0" />
+      <mass
+        value="1.2908" />
+      <inertia
+        ixx="0.0047721"
+        ixy="-2.0541E-08"
+        ixz="2.143E-08"
+        iyy="0.0091542"
+        iyz="-1.7861E-08"
+        izz="0.0047721" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/right_wheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/right_wheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_rw"
+    type="continuous">
+    <origin
+      xyz="-0.025721 -0.3659 -0.059548"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_wheel_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-180"
+      upper="180"
+      effort="0"
+      velocity="0" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+  <link
+    name="left_wheel_Link">
+    <inertial>
+      <origin
+        xyz="0.000723629156446026 -0.0251587992443347 -0.000449587030259595"
+        rpy="0 0 0" />
+      <mass
+        value="1.29080749046176" />
+      <inertia
+        ixx="0.00477207493749581"
+        ixy="2.05463192574373E-08"
+        ixz="2.14307565239151E-08"
+        iyy="0.00915424015488939"
+        iyz="1.78550627756218E-08"
+        izz="0.00477206891888719" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/left_wheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/left_wheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_lw"
+    type="continuous">
+    <origin
+      xyz="-0.025721 0.3659 -0.059548"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_wheel_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-180"
+      upper="180"
+      effort="0"
+      velocity="0" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+  <link
+    name="universal_wheel_Link">
+    <inertial>
+      <origin
+        xyz="0.017103 -0.00048419 -0.017874"
+        rpy="0 0 0" />
+      <mass
+        value="0.087047" />
+      <inertia
+        ixx="7.582E-05"
+        ixy="9.1298E-09"
+        ixz="2.0695E-05"
+        iyy="7.4394E-05"
+        iyz="-5.4645E-10"
+        izz="8.3633E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/universal_wheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0.52941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/universal_wheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_uw"
+    type="continuous">
+    <origin
+      xyz="0.479 2.5E-05 -0.06"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="universal_wheel_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-180"
+      upper="180"
+      effort="0"
+      velocity="0" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+  <link
+    name="front_wheel_Link">
+    <inertial>
+      <origin
+        xyz="2.2204E-16 0.044 2.0262E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.25282" />
+      <inertia
+        ixx="0.00017792"
+        ixy="-6.9773E-20"
+        ixz="-3.4963E-10"
+        iyy="0.00030873"
+        iyz="1.8907E-19"
+        izz="0.00017793" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/front_wheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.63922 0.63922 0.63922 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/front_wheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_fw"
+    type="continuous">
+    <origin
+      xyz="0.04 -0.044 -0.06"
+      rpy="0 0 0" />
+    <parent
+      link="universal_wheel_Link" />
+    <child
+      link="front_wheel_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-180"
+      upper="180"
+      effort="0"
+      velocity="0" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+  <link
+    name="ladar_Link">
+    <inertial>
+      <origin
+        xyz="-0.012 1.7967E-17 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.20534" />
+      <inertia
+        ixx="0.00039166"
+        ixy="-4.8439E-21"
+        ixz="-5.5057E-22"
+        iyy="7.5635E-05"
+        iyz="-5.0613E-20"
+        izz="0.00033574" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/ladar_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/ladar_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_ladar"
+    type="fixed">
+    <origin
+      xyz="0.4153 0 0.096"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="ladar_Link" />
+    <axis
+      xyz="0 0 0" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+  <link
+    name="imu_Link">
+    <inertial>
+      <origin
+        xyz="0 1.18E-19 -0.018"
+        rpy="0 0 0" />
+      <mass
+        value="0.25841" />
+      <inertia
+        ixx="0.00014583"
+        ixy="-1.1463E-20"
+        ixz="1.6094E-21"
+        iyy="0.00023052"
+        iyz="-7.0586E-21"
+        izz="0.00032053" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/imu_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CleaningCar/meshes/imu_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_imu"
+    type="fixed">
+    <origin
+      xyz="-0.0235 0 0.08"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="imu_Link" />
+    <axis
+      xyz="0 0 0" />
+    <safety_controller
+      k_velocity="0" />
+  </joint>
+</robot>

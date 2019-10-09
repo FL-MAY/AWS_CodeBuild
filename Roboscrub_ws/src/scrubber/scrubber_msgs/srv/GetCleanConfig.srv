@@ -1,0 +1,22 @@
+# Get Clean configs
+# Request None
+# Responed Config Set
+######################################################
+# Data Description
+# configs   Range    Meaning
+#   all       0        OFF
+#lock_wheel   1       Lock
+#brush_down   1       Down
+#  brush    1-100    On & speed scale from min to max   
+# squeegee    1        ON  
+#  flow     1-100    On & power scale from min to max 
+#  vacuum   1-100    On & power scale from min to max
+######################################################
+
+
+---
+uint8 lock_wheel
+uint8 brush    
+uint8 squeegee
+uint8 flow
+uint8 vacuum

@@ -1,0 +1,15 @@
+<launch>
+  <!-- Arguments -->
+ 
+  <arg name="map_file" default="$(find scrubber_gazebo)/maps/house_global.yaml"/>
+
+  <!-- Map server -->
+  <node pkg="map_server" name="" type="map_server" args="$(arg map_file)"/>
+
+  <!-- AMCL -->
+  <include file="$(find scrubber_gazebo)/launch/amcl.launch"/>
+
+  <!-- rviz -->
+  <node pkg="rviz" type="rviz" name="rviz" required="true"/>
+         
+</launch>
