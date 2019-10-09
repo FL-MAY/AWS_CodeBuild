@@ -1,0 +1,6 @@
+bool   by_topic
+string name
+nav_msgs/Path path
+---
+uint32 path_id
+

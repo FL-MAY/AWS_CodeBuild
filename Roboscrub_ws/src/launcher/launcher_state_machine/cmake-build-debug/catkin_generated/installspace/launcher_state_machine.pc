@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: launcher_state_machine
+Description: Description of launcher_state_machine
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: geometry_msgs launcher_msgs mbf_msgs db_msgs roscpp

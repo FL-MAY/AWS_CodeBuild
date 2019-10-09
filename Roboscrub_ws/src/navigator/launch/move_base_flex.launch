@@ -1,0 +1,29 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="cmd_vel_topic" default="/mbf_cmd_vel" />
+  <arg name="odom_topic" default="odom" />
+  <arg name="move_forward_only" default="false"/>
+  <arg name="smach" default="true" />
+
+  <!-- move_base_flex -->
+  <node pkg="mbf_costmap_nav" type="mbf_costmap_nav" respawn="false" name="move_base_flex">
+    <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+    <rosparam file="$(find navigator)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find navigator)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find navigator)/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find navigator)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find navigator)/param/move_base_flex_params.yaml" command="load" />
+    <rosparam file="$(find navigator)/param/recovery_behaviors.yaml" command="load" />
+    <rosparam file="$(find navigator)/param/dwa_local_planner_params.yaml" command="load" />
+    <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
+    <remap from="odom" to="$(arg odom_topic)"/>
+    <param name="DWAPlannerROS/min_vel_x" value="0.0" if="$(arg move_forward_only)" />
+  </node>
+
+  <!-- SMACH Navigation State Machine -->
+  <node if="$(arg smach)" pkg="navigator" type="mbf_state_machine.py" name="mbf_state_machine" output="screen" required="true"/>
+
+  <!-- Speed Ratio -->
+    <node name="speed_ratio" pkg="navigator" type="speed_ratio"></node>
+
+</launch>

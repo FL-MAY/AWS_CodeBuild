@@ -1,0 +1,6 @@
+bool by_plan_name
+uint32 plan_id
+string plan_name # Plan name
+---
+uint32[] tasks # Tasks binding this plan
+

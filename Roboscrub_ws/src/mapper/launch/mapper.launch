@@ -1,0 +1,35 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="slam_methods" default="cartographer" doc="slam type [gmapping, cartographer, hector, karto, frontier_exploration]"/>
+  <arg name="open_rviz" default="true"/>
+  <arg name="pure_localization" default="false"/>
+  <arg name="load_state_filename" default="/home/rock-trl/Downloads/test.bag.pbstream" />
+  <arg name="initial_x" default="0.0"/>
+  <arg name="initial_y" default="0.0"/>
+
+  <!-- RoboScrub -->
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find CleaningCar)/urdf/CleaningCar.urdf.xacro'" />
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="20.0" />
+  </node>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>
+
+  <!-- SLAM: Gmapping, Cartographer -->
+  <group if="$(arg pure_localization)">
+    <include file="$(find mapper)/launch/mapper_cartographer_localization.launch">
+          <arg name="load_state_filename" value="$(arg load_state_filename)" />
+          <arg name="initial_x" value="$(arg initial_x)" />
+          <arg name="initial_y" value="$(arg initial_y)" />
+    </include>
+  </group>
+  <group unless="$(arg pure_localization)">
+    <include file="$(find mapper)/launch/mapper_$(arg slam_methods).launch">
+    </include>
+  </group>
+
+  <!-- rviz -->
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find mapper)/rviz/mapper_$(arg slam_methods).rviz"/>
+  </group>
+</launch>

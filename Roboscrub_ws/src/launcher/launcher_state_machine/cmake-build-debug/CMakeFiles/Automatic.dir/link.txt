@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libAutomatic.so -o devel/lib/libAutomatic.so CMakeFiles/Automatic.dir/src/Automatic.cpp.o -Wl,-rpath,/home/yang/RoboScrub/src/launcher/launcher_state_machine/cmake-build-debug/devel/lib devel/lib/libScrubberStates.so 

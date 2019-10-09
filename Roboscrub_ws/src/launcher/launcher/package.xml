@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>launcher</name>
+  <version>0.0.0</version>
+  <description>The launcher package</description>
+
+  <maintainer email="luolongyue@roborock.com">longyue</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <exec_depend>launcher_msgs</exec_depend>
+  <exec_depend>launcher_state_machine</exec_depend>
+  <export>
+   <metapackage/>
+
+  </export>
+</package>

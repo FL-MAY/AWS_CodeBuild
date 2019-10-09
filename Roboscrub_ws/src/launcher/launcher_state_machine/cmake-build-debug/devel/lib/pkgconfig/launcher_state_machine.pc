@@ -1,0 +1,8 @@
+prefix=/home/yang/RoboScrub/src/launcher/launcher_state_machine/cmake-build-debug/devel
+
+Name: launcher_state_machine
+Description: Description of launcher_state_machine
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yang/RoboScrub/src/launcher/launcher_state_machine/cmake-build-debug/devel/lib 
+Requires: geometry_msgs launcher_msgs mbf_msgs db_msgs roscpp

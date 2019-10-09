@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libMapping.so -o devel/lib/libMapping.so CMakeFiles/Mapping.dir/src/Mapping.cpp.o -Wl,-rpath,/home/yang/RoboScrub/src/launcher/launcher_state_machine/cmake-build-debug/devel/lib devel/lib/libScrubberStates.so 
