@@ -1,5 +1,0 @@
-bool   use_path_name
-uint32 path_id
-string path_name
----
-nav_msgs/Path path

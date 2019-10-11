@@ -1,3 +1,0 @@
-uint32 map_id
----
-db_msgs/Content[] zones

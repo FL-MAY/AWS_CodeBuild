@@ -1,4 +1,0 @@
-string type #In which type the data should be deleted, predefind in db_msgs::Type
-string name #Name of Plan or Map or Zone or Path need to be deleted
----
-

@@ -1,0 +1,2 @@
+CleaningCar:scrubber_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/yangjian/AWS_CodeBuild/AWS_CodeBuild/Roboscrub_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yangjian/AWS_CodeBuild/AWS_CodeBuild/Roboscrub_ws/install -G Unix Makefiles

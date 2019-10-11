@@ -1,0 +1,8 @@
+prefix=/home/yangjian/AWS_CodeBuild/AWS_CodeBuild/Roboscrub_ws/devel
+
+Name: scrubber_gazebo
+Description: Description of scrubber_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yangjian/AWS_CodeBuild/AWS_CodeBuild/Roboscrub_ws/devel/lib 
+Requires: 

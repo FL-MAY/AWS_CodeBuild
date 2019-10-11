@@ -1,0 +1,8 @@
+prefix=/home/yangjian/AWS_CodeBuild/AWS_CodeBuild/Roboscrub_ws/install
+
+Name: CleaningCar
+Description: Description of CleaningCar
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/yangjian/AWS_CodeBuild/AWS_CodeBuild/Roboscrub_ws/install/lib 
+Requires: 

@@ -1,8 +1,0 @@
-bool   by_zone_name
-uint32 zone_id
-string zone_name
----
-uint8  type
-uint32 map_id
-uint32 config_id
-nav_msgs/Path path

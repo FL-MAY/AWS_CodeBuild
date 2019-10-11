@@ -1,8 +1,0 @@
-bool by_map_name
-bool pub_this_map
-uint32 map_id
-string map_name
----
-uint32 map_id
-nav_msgs/OccupancyGrid map 
-
