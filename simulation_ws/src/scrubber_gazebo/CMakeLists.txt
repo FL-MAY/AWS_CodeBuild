@@ -206,6 +206,8 @@ install(DIRECTORY
 ## Testing ##
 #############
 
+catkin_install_python(PROGRAMS scripts/myscript
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 ## Add gtest based cpp test target and link libraries
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_scrubber_gazebo.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
