@@ -8,8 +8,7 @@ project(scrubber_gazebo)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED
-            roscpp
-            rospy)
+            roscpp)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -206,8 +205,6 @@ install(DIRECTORY
 ## Testing ##
 #############
 
-catkin_install_python(PROGRAMS scripts/myscript
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 ## Add gtest based cpp test target and link libraries
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_scrubber_gazebo.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
