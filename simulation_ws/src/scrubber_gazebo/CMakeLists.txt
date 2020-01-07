@@ -8,8 +8,7 @@ project(scrubber_gazebo)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED
-            roscpp
-	    gazebo_ros)
+            roscpp)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -105,7 +104,7 @@ catkin_package(
 #  LIBRARIES scrubber_gazebo
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
-DEPENDS gazebo_ros
+#  DEPENDS gazebo_ros
 )
 
 ###########
