@@ -2,9 +2,10 @@ cmake_minimum_required(VERSION 2.8.3)
 
 project(CleaningCar)
 
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS
+   gazebo_ros)
 
-catkin_package()
+catkin_package(DEPENDS gazebo_ros)
 
 find_package(roslaunch)
 
