@@ -15,6 +15,7 @@ for ClearningCar robot</p>
   <run_depend>rviz</run_depend>
   <run_depend>joint_state_publisher</run_depend>
   <run_depend>gazebo</run_depend>
+  <depend>gazebo_ros</depend>
   <export>
     <architecture_independent />
   </export>
