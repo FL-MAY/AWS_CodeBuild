@@ -36,7 +36,8 @@ catkin_package(
 		#  DEPENDS system_lib
 )
 
-message()
+message(dwa*************${dwa_local_planner_LIB})
+message(teb*************${teb_local_planner_LIB})
 ###########
 ## Build ##
 ###########
