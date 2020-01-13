@@ -36,8 +36,6 @@ catkin_package(
 		#  DEPENDS system_lib
 )
 
-message(dwa*************${dwa_local_planner_LIB})
-message(teb*************${teb_local_planner_LIB})
 ###########
 ## Build ##
 ###########
@@ -70,7 +68,7 @@ add_library(Automatic
 
 add_dependencies(Automatic
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
-                 ${catkin_EXPORTED_TARGETS}
+                 ${catkin_EXPORTED_TARGETS})
 
 add_library(Mapping
             src/Mapping.cpp)
