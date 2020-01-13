@@ -22,8 +22,8 @@ namespace rock::scrubber::launcher {
 			  get_path_(new GetPath("move_base_flex/get_path", true)),
 			  inf_client_(new dynamic_reconfigure::Client<costmap_2d::InflationPluginConfig>(
 					  "/move_base_flex/global_costmap/inflation")),
-			 // dwa_client_(new dynamic_reconfigure::Client<dwa_local_planner::DWAPlannerConfig>(
-			//		  "/move_base_flex/DWAPlannerROS")),
+			  dwa_client_(new dynamic_reconfigure::Client<dwa_local_planner::DWAPlannerConfig>(
+					  "/move_base_flex/DWAPlannerROS")),
 			  teb_client_(new dynamic_reconfigure::Client<teb_local_planner::TebLocalPlannerReconfigureConfig>(
 					  "/move_base_flex/TebLocalPlannerROS")) {
 		if (!states) {
@@ -93,12 +93,12 @@ namespace rock::scrubber::launcher {
 
 		ROS_INFO("Controller is ready");
 
-//		dwa_config_ol_ = dwa_client_->getCurrentConfiguration(dwa_config_, ros::Duration(0.5));
+		dwa_config_ol_ = dwa_client_->getCurrentConfiguration(dwa_config_, ros::Duration(0.5));
 		teb_config_ol_ = teb_client_->getCurrentConfiguration(teb_config_, ros::Duration(0.5));
 		inf_config_ol_ = inf_client_->getCurrentConfiguration(inf_config_, ros::Duration(0.5));
-//		if (dwa_config_ol_) {
-//			ROS_INFO("DWA Dynamic reconfigure online");
-//		}
+		if (dwa_config_ol_) {
+			ROS_INFO("DWA Dynamic reconfigure online");
+		}
 
 		if (teb_config_ol_) {
 			ROS_INFO("TEB Dynamic reconfigure online");
