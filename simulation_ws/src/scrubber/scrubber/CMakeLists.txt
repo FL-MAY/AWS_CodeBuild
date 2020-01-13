@@ -115,6 +115,7 @@ catkin_package(
 		launcher_msgs
 		path_coverage
 		roborock_app
+		amcl
 		#  DEPENDS system_lib
 )
 

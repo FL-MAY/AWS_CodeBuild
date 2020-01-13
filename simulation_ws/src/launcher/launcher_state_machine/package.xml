@@ -29,6 +29,8 @@
   <depend>std_srvs</depend>
   <depend>scrubber_msgs</depend>
   <depend>amcl</depend>
+  <depend>dwa_local_planner</depend>
+  <depend>teb_local_planner</depend>
   <build_export_depend>actionlib</build_export_depend>
   <build_export_depend>geometry_msgs</build_export_depend>
   <build_export_depend>launcher_msgs</build_export_depend>
