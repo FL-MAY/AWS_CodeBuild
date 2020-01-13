@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/longyue/git_repo/RoboScrub_Nav/src/navigation/amcl/cmake-build-debug/devel/setup.sh

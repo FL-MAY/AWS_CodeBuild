@@ -1,0 +1,5 @@
+float64 rect_min_x
+float64 rect_max_x
+float64 rect_min_y
+float64 rect_max_y
+---
