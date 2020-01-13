@@ -15,6 +15,8 @@ find_package(catkin REQUIRED COMPONENTS
              amcl
              tf2
              tf2_ros
+	     dwa_local_planner
+	     teb_local_planner
              )
 
 catkin_package(
@@ -29,13 +31,12 @@ catkin_package(
 		scrubber_msgs
 		costmap_2d
 		amcl
-		##dwa_local_planner
-	        ##teb_local_planner
+		dwa_local_planner
+	        teb_local_planner
 		#  DEPENDS system_lib
 )
 
-find_library(dwa_local_planner_LIB dwa_local_planner)
-find_library(teb_local_planner_LIB teb_local_planner)
+message()
 ###########
 ## Build ##
 ###########
@@ -69,8 +70,6 @@ add_library(Automatic
 add_dependencies(Automatic
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
                  ${catkin_EXPORTED_TARGETS}
-		 ${dwa_local_planner_LIB}
-		 ${teb_local_planner_LIB})
 
 add_library(Mapping
             src/Mapping.cpp)
