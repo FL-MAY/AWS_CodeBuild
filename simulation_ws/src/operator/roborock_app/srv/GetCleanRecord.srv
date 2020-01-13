@@ -1,0 +1,7 @@
+# 记录起始位置，0表示最近一条记录
+int32 firstRecord
+# 要取的记录条数，按照实际顺序排列，最近记录排在前面
+# 如果实际记录数少于此数，返回实际记录数
+int32 recordCount
+---
+roborock_app/CleanRecord[] cleanRecords

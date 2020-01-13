@@ -1,0 +1,5 @@
+uint32 plan_id       #plan need to be updated
+uint32 map_id        #which map the plan belongs
+Task[] ordered_tasks #new ordered tasks
+---
+uint32 new_plan_id   #plan_id after updated

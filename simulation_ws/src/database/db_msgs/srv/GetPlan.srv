@@ -1,0 +1,7 @@
+uint32 plan_id
+---
+uint32         init_zone_id
+float64        create_time
+uint8          type
+db_msgs/Task[] tasks # Tasks binding this plan
+

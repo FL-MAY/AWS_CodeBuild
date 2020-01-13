@@ -1,0 +1,50 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="slam_methods" default="cartographer" doc="slam type [gmapping, cartographer]"/>
+  <arg name="open_rviz" default="true"/>
+  <arg name="pure_localization" default="false"/>
+  <arg name="load_state_filename" default="/home/rock-trl/workspace/scrubber_test/mapper/map.pbstream" />
+
+  <!-- RoboScrub 
+  <param name="robot_description" command="$(find xacro)/xacro '$(find CleaningCar)/urdf/CleaningCar.urdf.xacro'"/>
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+   <param name="publish_frequency" type="double" value="50.0" />
+  </node>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+   -->
+
+  <!-- SLAM: Gmapping, Cartographer -->
+  <group if="$(arg pure_localization)">
+    <include file="$(find mapper)/launch/mapper_cartographer_localization.launch">
+          <arg name="load_state_filename" value="$(arg load_state_filename)" />
+    </include>
+  </group>
+  <group unless="$(arg pure_localization)">
+    <include file="$(find mapper)/launch/mapper_$(arg slam_methods).launch">
+    </include>
+  </group>
+
+  <!-- move_base -->
+  <include file="$(find mapper)/launch/move_base.launch" />
+
+  <!-- Explore_lite -->
+  <node pkg="explore_lite" type="explore" respawn="false" name="explore">
+    <param name="robot_base_frame" value="base_link"/>
+    <param name="costmap_topic" value="map"/>
+    <param name="costmap_updates_topic" value="map_updates"/>
+    <param name="visualize" value="true"/>
+    <param name="planner_frequency" value="0.1"/>
+    <param name="progress_timeout" value="30.0"/>
+    <param name="potential_scale" value="3.0"/>
+    <param name="orientation_scale" value="0.0"/>
+    <param name="gain_scale" value="1.0"/>
+    <param name="transform_tolerance" value="0.5"/>
+    <param name="min_frontier_size" value="0.5"/>
+  </node>
+
+  <!-- rviz -->
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="false"
+          args="-d $(find mapper)/rviz/mapper_$(arg slam_methods).rviz"/>
+  </group>
+</launch>

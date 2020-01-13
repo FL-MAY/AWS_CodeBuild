@@ -1,0 +1,7 @@
+#常量值参考ConfigType.msg
+uint8 configType
+#对应不同的configType,使用intValue或者floatValue
+uint8 intValue
+float32 floatValue
+---
+uint8 errCode

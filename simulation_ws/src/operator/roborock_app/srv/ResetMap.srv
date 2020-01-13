@@ -1,0 +1,4 @@
+int32 regionId
+---
+#常量定义在CmdErrCode.msg中
+int8 errCode

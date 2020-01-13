@@ -1,0 +1,4 @@
+---
+uint32 total_clean_times
+uint32 total_clean_area
+uint32 total_clean_durition

@@ -1,0 +1,8 @@
+bool   by_topic
+string name
+uint8  type
+uint32 map_id
+nav_msgs/Path path
+---
+uint32 path_id
+

@@ -1,0 +1,11 @@
+#常量值参考ConfigIndex.msg
+uint8 index 
+#常量值参考ConfigType.msg
+uint8 type
+#对应不同的configType,使用intValue或者floatValue
+uint8 intValue
+float32 floatValue
+#常量参考PathCompType.msg
+uint8 compType
+---
+uint8 errCode

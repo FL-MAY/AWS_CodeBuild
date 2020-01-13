@@ -1,0 +1,5 @@
+int32 regionId
+#如果subRegionId=-1表示删除region
+int32 subRegionId
+---
+int8 errCode

@@ -1,0 +1,39 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="cmd_vel_topic" default="/mbf_cmd_vel" />
+  <arg name="odom_topic" default="odom" />
+  <arg name="move_forward_only" default="false"/>
+  <arg name="smach" default="false" />
+
+  <!-- move_base_flex -->
+  <node pkg="mbf_costmap_nav" type="mbf_costmap_nav" respawn="false" name="move_base_flex">
+    <!--param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" /-->
+    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS"/>
+    <!--param name="SBPLLatticePlanner/primitive_filename" value="$(find navigator)/mprim/ceres_5cm.mprim"/-->
+    <rosparam file="$(find navigator)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find navigator)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find navigator)/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find navigator)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find navigator)/param/move_base_flex_params.yaml" command="load" />
+    <rosparam file="$(find navigator)/param/recovery_behaviors.yaml" command="load" />
+    <!--rosparam file="$(find navigator)/param/dwa_local_planner_params.yaml" command="load" /-->
+    <rosparam file="$(find navigator)/param/teb_local_planner_params.yaml" command="load" />
+    <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
+    <remap from="odom" to="$(arg odom_topic)"/>
+    <!--param name="DWAPlannerROS/min_vel_x" value="0.0" if="$(arg move_forward_only)"/-->
+    <param name="TebLocalPlannerROS/min_vel_x" value="0.0" if="$(arg move_forward_only)" />
+  </node>
+
+  <!-- cmd vel smoother -->
+  <node name="cmd_vel_smoother" pkg="navigator" type="cmd_vel_smoother" output="screen" required="true">
+    <remap from="input" to="/mbf_cmd_vel" />
+    <remap from="output" to="/cmd_vel" />
+
+    <param name="desired_rate" value="50.0" />
+    <param name="x_acc_lim" value="0.5" />
+    <param name="y_acc_lim" value="0.0" />
+    <param name="yaw_acc_lim" value="0.2" />
+    <param name="interpolate_max_frame" value="6" />
+  </node>
+
+</launch>

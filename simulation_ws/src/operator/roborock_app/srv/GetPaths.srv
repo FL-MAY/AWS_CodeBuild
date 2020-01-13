@@ -1,0 +1,4 @@
+int32 regionId
+int32 subRegionId
+---
+roborock_app/CleanPath[] paths

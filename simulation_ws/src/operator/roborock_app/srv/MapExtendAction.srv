@@ -1,0 +1,7 @@
+#地图ID
+int32 regionId
+#常量定义在CmdCode.msg中
+uint8 cmdCode
+---
+#常量定义在CmdErrCode.msg中
+uint8 errCode

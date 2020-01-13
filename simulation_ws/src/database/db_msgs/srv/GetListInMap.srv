@@ -1,0 +1,7 @@
+string   type
+bool     by_map_name
+uint32   map_id
+uint8    filter      #Select specific type ie. zone type, plan type
+string   name
+---
+db_msgs/Content[] contents

@@ -1,0 +1,6 @@
+int32 regionId
+#如果subRegionId=-1表示重命名region
+int32 subRegionId
+string newName
+---
+int8 errCode

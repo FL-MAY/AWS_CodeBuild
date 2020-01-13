@@ -1,0 +1,8 @@
+int32 regionId
+#如果subRegionId为-1则表示清扫整个区域
+int32 subRegionId
+int8  cleanTimes
+#参照ConfigIndex.msg
+uint8  configIndex
+---
+int8  errCode

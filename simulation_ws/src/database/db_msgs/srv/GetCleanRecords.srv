@@ -1,0 +1,6 @@
+#First record, 0 -> latest 1->latest-1 ...
+#Count how many records we want, order by latest -> oldest 
+int32 first   
+int32 count
+---
+db_msgs/CleanRecord[] records

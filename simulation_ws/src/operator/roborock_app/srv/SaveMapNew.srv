@@ -1,0 +1,5 @@
+string mapName
+---
+int8 errCode
+#errCode为SUCCESS时下面字段才有效
+int32 regionId

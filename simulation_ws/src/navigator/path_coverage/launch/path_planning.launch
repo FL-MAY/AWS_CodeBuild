@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="path_coverage" type="path_planning_node" name="path_planning_node" output="screen">
+    <!--rosparam file="$(find navigator)/param/costmap_common_params.yaml" command="load" ns="cleaning_costmap" /-->
+    <rosparam file="$(find path_coverage)/config/cleaning_costmap_params.yaml" command="load" />
+  </node>
+</launch>

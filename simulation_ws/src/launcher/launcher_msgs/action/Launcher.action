@@ -1,0 +1,5 @@
+launcher_msgs/MissionGoal mission
+---
+launcher_msgs/MissionResult result
+---
+launcher_msgs/MissionFeedback state_feedback

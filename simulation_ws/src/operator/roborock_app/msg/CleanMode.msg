@@ -1,0 +1,2 @@
+int8  MODE_CLEAN = 1
+int8  MODE_PUSH_DUST = 2

@@ -1,0 +1,33 @@
+global_costmap:
+  plugins: 
+    - {name: static, type: "costmap_2d::StaticLayer"}
+    - {name: costmap_prohibition_layer, type: "costmap_prohibition_layer_namespace::CostmapProhibitionLayer"}
+    - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation, type: "costmap_2d::InflationLayer"}
+
+  global_frame: map
+  robot_base_frame: base_link
+
+  update_frequency: 3.0
+  publish_frequency: 1.0
+  transform_tolerance: 0.5
+
+  static_map: true
+
+  costmap_prohibition_layer:
+    enabled: true
+    fill_polygons: true
+#    prohibition_areas:
+#      - [[3.0, 1.0],
+#         [3.0, -1.0],
+#         [1.0, -1.0],
+#         [1.0, 1.0]]
+
+  obstacles:
+    observation_sources: scan
+    scan: {sensor_frame: laser, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+    track_unknown_space: true
+
+  inflation:
+    inflation_radius: 0.45
+    cost_scaling_factor: 3.0

@@ -1,0 +1,6 @@
+int32 regionId
+#如果subRegionId为-1则表示区域定位
+int32 subRegionId
+uint8 locateType
+---
+int8  errCode

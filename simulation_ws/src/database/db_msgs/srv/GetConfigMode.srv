@@ -1,0 +1,7 @@
+uint8 config_mode
+---
+uint8 squeegee
+uint8 brush
+uint8 flow
+uint8 vacuum
+

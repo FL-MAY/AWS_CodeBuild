@@ -1,0 +1,7 @@
+int32 regionId
+#清除或者设置障碍点
+uint8 fixType
+#操作范围
+roborock_app/Rect rect
+---
+int8 errCode

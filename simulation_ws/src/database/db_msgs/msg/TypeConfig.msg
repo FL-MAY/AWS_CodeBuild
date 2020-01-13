@@ -1,0 +1,2 @@
+int8 CLEAN_CONFIG = 1
+int8 SPEED_CONFIG = 2

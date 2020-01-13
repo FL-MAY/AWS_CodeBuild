@@ -1,0 +1,3 @@
+uint8 AUTOMATIC = 22
+uint8 MAPPING = 26
+uint8 TRACKING = 27

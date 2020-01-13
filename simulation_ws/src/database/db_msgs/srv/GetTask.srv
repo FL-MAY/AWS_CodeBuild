@@ -1,0 +1,6 @@
+uint32 task_id        # Task id to inquiry
+---
+nav_msgs/Path path    # Path to follow
+uint32 type           # Task type
+uint32 config_id      # Scrubber config
+

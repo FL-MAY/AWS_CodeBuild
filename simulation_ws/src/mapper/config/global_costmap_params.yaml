@@ -1,0 +1,27 @@
+global_costmap:
+  plugins: 
+    - {name: static, type: "costmap_2d::StaticLayer"}
+    - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation, type: "costmap_2d::InflationLayer"}
+
+  global_frame: map
+  robot_base_frame: base_link
+
+  update_frequency: 2.0
+  publish_frequency: 1.0
+  transform_tolerance: 0.5
+
+  static_map: false
+  rolling_window: true
+  width: 60
+  height: 60
+  resolution: 0.2
+
+  obstacles:
+    observation_sources: scan
+    scan: {sensor_frame: ladar_Link, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+    track_unknown_space: true
+
+  inflation:
+    inflation_radius: 1.0
+    cost_scaling_factor: 3.0

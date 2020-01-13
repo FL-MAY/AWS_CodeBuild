@@ -1,0 +1,4 @@
+#对应CleanRecord.msg中的map_id
+int32 id 
+---
+roborock_app/RosMapInfo mapInfo

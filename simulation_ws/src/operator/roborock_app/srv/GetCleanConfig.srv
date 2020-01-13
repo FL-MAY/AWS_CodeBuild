@@ -1,0 +1,4 @@
+#常量定义在ConfigIndex.msg中
+uint8 index
+---
+roborock_app/CleanCfgInfo config

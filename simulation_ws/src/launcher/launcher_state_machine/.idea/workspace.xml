@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="launcher_state_machine" targetName="amcl_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="launcher_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="visualization_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="db_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="gmock" />
+      <config projectName="launcher_state_machine" targetName="doxygen" />
+      <config projectName="launcher_state_machine" targetName="visualization_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="map_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="costmap_2d_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="amcl_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="clean_test_results" />
+      <config projectName="launcher_state_machine" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="launcher_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="amcl_gencfg" />
+      <config projectName="launcher_state_machine" targetName="visualization_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="diagnostic_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="gtest" />
+      <config projectName="launcher_state_machine" targetName="gmock_main" />
+      <config projectName="launcher_state_machine" targetName="db_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="costmap_2d_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="scrubber_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="actionlib_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="mbf_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="db_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="topic_tools_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="launcher_state_machine" targetName="Mapping" />
+      <config projectName="launcher_state_machine" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="amcl_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="std_srvs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="db_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="actionlib_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="roscpp_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="Report" />
+      <config projectName="launcher_state_machine" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="dynamic_reconfigure_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="diagnostic_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="run_tests" />
+      <config projectName="launcher_state_machine" targetName="topic_tools_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="diagnostic_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="nav_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="scrubber_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="launcher_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="_catkin_empty_exported_target" />
+      <config projectName="launcher_state_machine" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="diagnostic_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="mbf_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="StateMachine" />
+      <config projectName="launcher_state_machine" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="map_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="launcher_state_machine_node" />
+      <config projectName="launcher_state_machine" targetName="amcl_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="map_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="map_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="roscpp_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="scrubber_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="diagnostic_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="topic_tools_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="launcher_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="costmap_2d_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="std_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="nav_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="ScrubberStates" />
+      <config projectName="launcher_state_machine" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="costmap_2d_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="costmap_2d_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="amcl_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="mbf_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="map_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="db_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="scrubber_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="Tracking" />
+      <config projectName="launcher_state_machine" targetName="Manual" />
+      <config projectName="launcher_state_machine" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="download_extra_data" />
+      <config projectName="launcher_state_machine" targetName="scrubber_msgs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="nav_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="costmap_2d_gencfg" />
+      <config projectName="launcher_state_machine" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="launcher_state_machine" targetName="launcher_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="Automatic" />
+      <config projectName="launcher_state_machine" targetName="gtest_main" />
+      <config projectName="launcher_state_machine" targetName="mbf_msgs_generate_messages_py" />
+      <config projectName="launcher_state_machine" targetName="mbf_msgs_generate_messages_nodejs" />
+      <config projectName="launcher_state_machine" targetName="tests" />
+      <config projectName="launcher_state_machine" targetName="visualization_msgs_generate_messages_cpp" />
+      <config projectName="launcher_state_machine" targetName="visualization_msgs_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="launcher_state_machine" targetName="nav_msgs_generate_messages_eus" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="ROS_Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCATKIN_DEVEL_PREFIX:PATH=/home/longyue/git_repo/RoboScrub_Nav/devel" GENERATION_DIR="$PROJECT_DIR$/../../../build_clion" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="406e667b-d276-4a9c-967c-4380e6fdf2a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../database/database/db/test.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Automatic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Automatic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../navigator/navigator/launch/move_base_flex.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../navigator/navigator/launch/move_base_flex.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../navigator/navigator/param/costmap_common_params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../navigator/navigator/param/costmap_common_params.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../navigator/navigator/src/cmd_vel_smoother.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../navigator/navigator/src/cmd_vel_smoother.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scrubber/scrubber/src/Mechanism.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../scrubber/scrubber/src/Mechanism.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scrubber/scrubber/src/scrubber_util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../scrubber/scrubber/src/scrubber_util.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/../../../build/" />
+    <ignored path="$PROJECT_DIR$/../../../build_isolated/" />
+    <ignored path="$PROJECT_DIR$/../../../build_clion/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:ROS_Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/Automatic.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2970">
+              <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+              <folding>
+                <element signature="e#401#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachine.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6644">
+              <caret line="302" column="24" selection-start-line="302" selection-start-column="24" selection-end-line="302" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ScrubberStates.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Automatic.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2992">
+              <caret line="363" column="66" lean-forward="true" selection-start-line="363" selection-start-column="66" selection-end-line="363" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/StateMachine.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/ScrubberStates.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>move_base</find>
+      <find>shift</find>
+      <find>IDLE</find>
+      <find>shiftState</find>
+      <find>scrubberState_</find>
+      <find>ID</find>
+      <find>launcherStateMachineNode</find>
+      <find>getState</find>
+      <find>getState()</find>
+      <find>cur_pose_</find>
+      <find>last_pause_</find>
+      <find>Type</find>
+      <find>saved_state_</find>
+      <find>poseCallback</find>
+      <find>clean_area</find>
+      <find>addProhebitionZone</find>
+      <find>Fail</find>
+      <find>obstacle_avoid_</find>
+      <find>error</find>
+      <find>automatic_</find>
+      <find>cancelGoal</find>
+      <find>costmap</find>
+      <find>states_</find>
+      <find>gripControl</find>
+      <find>mission_id</find>
+      <find>id_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/mission.h" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/scrubberStates.h" />
+        <option value="$PROJECT_DIR$/src/scrubberStates.cpp" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/launcherStateMachine.h" />
+        <option value="$PROJECT_DIR$/src/launcherStateMachine.cpp" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/automatic.h" />
+        <option value="$PROJECT_DIR$/src/automatic.cpp" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/LauncherStateMachine.h" />
+        <option value="$PROJECT_DIR$/src/LauncherStateMachine.cpp" />
+        <option value="$PROJECT_DIR$/src/launcherStateMachineNode.cpp" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/Mission.h" />
+        <option value="$PROJECT_DIR$/src/Mapping.cpp" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/Mapping.h" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/Tracking.h" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/Manual.h" />
+        <option value="$PROJECT_DIR$/src/Tracking.cpp" />
+        <option value="$PROJECT_DIR$/src/Manual.cpp" />
+        <option value="$PROJECT_DIR$/src/ScrubberStates.cpp" />
+        <option value="$PROJECT_DIR$/src/StateMachine.cpp" />
+        <option value="$PROJECT_DIR$/package.xml" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/Report.h" />
+        <option value="$PROJECT_DIR$/src/Report.cpp" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/StateMachine.h" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/ScrubberStates.h" />
+        <option value="$PROJECT_DIR$/include/launcher_state_machine/Automatic.h" />
+        <option value="$PROJECT_DIR$/src/Automatic.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Tracking" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="549" />
+    <option name="y" value="292" />
+    <option name="width" value="1853" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="launcher_state_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="launcher_state_machine" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="launcher_state_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="launcher_state_machine" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="launcher_state_machine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="launcher_state_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="launcher_state_machine" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="launcher_state_machine" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="launcher_state_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="launcher_state_machine" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="launcher_state_machine" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="launcher_state_machine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="launcher_state_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="launcher_state_machine" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="launcher_state_machine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/nav_ws/src/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include/launcher_state_machine" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.launcher_state_machine_node">
+    <configuration name="Automatic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="Automatic" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manual" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="Manual" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="Mapping" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Report" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="Report" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrubberStates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="ScrubberStates" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateMachine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="StateMachine" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tracking" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="Tracking" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="actionlib_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="amcl_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="amcl_gencfg" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="amcl_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="amcl_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="amcl_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="amcl_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="amcl_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="amcl_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="amcl_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="amcl_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="amcl_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="amcl_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="clean_test_results" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="costmap_2d_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="costmap_2d_gencfg" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="costmap_2d_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="costmap_2d_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="costmap_2d_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="costmap_2d_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="costmap_2d_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="costmap_2d_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="costmap_2d_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="costmap_2d_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="costmap_2d_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="costmap_2d_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="db_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="db_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="db_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="db_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="db_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="db_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="db_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="db_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="db_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="db_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="diagnostic_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="diagnostic_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="diagnostic_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="diagnostic_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="diagnostic_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="diagnostic_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="diagnostic_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="diagnostic_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="diagnostic_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="diagnostic_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="download_extra_data" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="doxygen" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_reconfigure_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="dynamic_reconfigure_gencfg" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_reconfigure_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="dynamic_reconfigure_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_reconfigure_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="dynamic_reconfigure_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_reconfigure_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="dynamic_reconfigure_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_reconfigure_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="dynamic_reconfigure_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_reconfigure_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="dynamic_reconfigure_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="geometry_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="geometry_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="geometry_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="geometry_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="geometry_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="gmock" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="gmock_main" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="gtest" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="gtest_main" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="launcher_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="launcher_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="launcher_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="launcher_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="launcher_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="launcher_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="launcher_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="launcher_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="launcher_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="launcher_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="launcher_state_machine_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="launcher_state_machine_node" CONFIG_NAME="ROS_Debug" RUN_TARGET_PROJECT_NAME="launcher_state_machine" RUN_TARGET_NAME="launcher_state_machine_node">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="map_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="map_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="map_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="map_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="map_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbf_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="mbf_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbf_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="mbf_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbf_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="mbf_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbf_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="mbf_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbf_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="mbf_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="nav_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="nav_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="nav_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="nav_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="nav_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="run_tests" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrubber_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="scrubber_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrubber_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="scrubber_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrubber_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="scrubber_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrubber_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="scrubber_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrubber_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="scrubber_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="sensor_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="sensor_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="sensor_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="sensor_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="sensor_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_srvs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_srvs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_srvs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_srvs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="std_srvs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="tests" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="tf2_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="tf2_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="tf2_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="tf2_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="tf2_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="topic_tools_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="topic_tools_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="topic_tools_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="topic_tools_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="topic_tools_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="visualization_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="visualization_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="visualization_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="visualization_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="launcher_state_machine" TARGET_NAME="visualization_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Automatic" />
+      <item itemvalue="CMake Application.Manual" />
+      <item itemvalue="CMake Application.Mapping" />
+      <item itemvalue="CMake Application.Report" />
+      <item itemvalue="CMake Application.ScrubberStates" />
+      <item itemvalue="CMake Application.StateMachine" />
+      <item itemvalue="CMake Application.Tracking" />
+      <item itemvalue="CMake Application._catkin_empty_exported_target" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_cpp" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_eus" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_lisp" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_py" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.amcl_gencfg" />
+      <item itemvalue="CMake Application.amcl_generate_messages_cpp" />
+      <item itemvalue="CMake Application.amcl_generate_messages_eus" />
+      <item itemvalue="CMake Application.amcl_generate_messages_lisp" />
+      <item itemvalue="CMake Application.amcl_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.amcl_generate_messages_py" />
+      <item itemvalue="CMake Application.clean_test_results" />
+      <item itemvalue="CMake Application.costmap_2d_gencfg" />
+      <item itemvalue="CMake Application.costmap_2d_generate_messages_cpp" />
+      <item itemvalue="CMake Application.costmap_2d_generate_messages_eus" />
+      <item itemvalue="CMake Application.costmap_2d_generate_messages_lisp" />
+      <item itemvalue="CMake Application.costmap_2d_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.costmap_2d_generate_messages_py" />
+      <item itemvalue="CMake Application.db_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.db_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.db_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.db_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.db_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.download_extra_data" />
+      <item itemvalue="CMake Application.doxygen" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_gencfg" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_cpp" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_eus" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_lisp" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_py" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.launcher_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.launcher_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.launcher_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.launcher_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.launcher_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.launcher_state_machine_node" />
+      <item itemvalue="CMake Application.map_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.map_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.map_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.map_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.map_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.mbf_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.mbf_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.mbf_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.mbf_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.mbf_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_py" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.run_tests" />
+      <item itemvalue="CMake Application.scrubber_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.scrubber_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.scrubber_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.scrubber_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.scrubber_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_eus" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_py" />
+      <item itemvalue="CMake Application.tests" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_cpp" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_eus" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_lisp" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_py" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_py" />
+    </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",KIND,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="406e667b-d276-4a9c-967c-4380e6fdf2a7" name="Default Changelist" comment="" />
+      <created>1563331845472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563331845472</updated>
+      <workItem from="1563331846713" duration="1299000" />
+      <workItem from="1563333391750" duration="1711000" />
+      <workItem from="1563335157837" duration="15524000" />
+      <workItem from="1563417441153" duration="12330000" />
+      <workItem from="1563436466118" duration="13070000" />
+      <workItem from="1563504839612" duration="21184000" />
+      <workItem from="1563538685636" duration="2820000" />
+      <workItem from="1563762125583" duration="24809000" />
+      <workItem from="1563846836304" duration="19178000" />
+      <workItem from="1563933276843" duration="22513000" />
+      <workItem from="1564019358514" duration="21382000" />
+      <workItem from="1564047801481" duration="8178000" />
+      <workItem from="1564108405530" duration="15962000" />
+      <workItem from="1564364308049" duration="15287000" />
+      <workItem from="1564391664987" duration="11042000" />
+      <workItem from="1564451405703" duration="19549000" />
+      <workItem from="1564483033970" duration="244000" />
+      <workItem from="1564543237604" duration="6791000" />
+      <workItem from="1564570701615" duration="2996000" />
+      <workItem from="1564575288506" duration="1591000" />
+      <workItem from="1564580599166" duration="306000" />
+      <workItem from="1565087078334" duration="375000" />
+      <workItem from="1565142773749" duration="15150000" />
+      <workItem from="1565164396366" duration="6735000" />
+      <workItem from="1565228970116" duration="19160000" />
+      <workItem from="1565267083498" duration="2408000" />
+      <workItem from="1565316371524" duration="1867000" />
+      <workItem from="1565331593060" duration="935000" />
+      <workItem from="1565334029157" duration="614000" />
+      <workItem from="1565335439721" duration="1271000" />
+      <workItem from="1565339103508" duration="3198000" />
+      <workItem from="1565575907913" duration="5745000" />
+      <workItem from="1565661781613" duration="1879000" />
+      <workItem from="1565747571140" duration="1242000" />
+      <workItem from="1565764577032" duration="38581000" />
+      <workItem from="1565936087866" duration="7924000" />
+      <workItem from="1566180170264" duration="8451000" />
+      <workItem from="1566283224231" duration="29463000" />
+      <workItem from="1566526110662" duration="20164000" />
+      <workItem from="1566802504710" duration="3915000" />
+      <workItem from="1566887009401" duration="364000" />
+      <workItem from="1567047585552" duration="3128000" />
+      <workItem from="1567144283974" duration="1361000" />
+      <workItem from="1567393514801" duration="22000" />
+      <workItem from="1567578255580" duration="19248000" />
+      <workItem from="1567735383770" duration="11179000" />
+      <workItem from="1568027898127" duration="5724000" />
+      <workItem from="1568080872488" duration="2367000" />
+      <workItem from="1568600778388" duration="3445000" />
+      <workItem from="1568701994082" duration="21900000" />
+      <workItem from="1568858761336" duration="27412000" />
+      <workItem from="1569204414415" duration="23213000" />
+      <workItem from="1569290776162" duration="39355000" />
+      <workItem from="1569481656055" duration="1345000" />
+      <workItem from="1569490649629" duration="673000" />
+      <workItem from="1569549917933" duration="1231000" />
+      <workItem from="1569583985249" duration="415000" />
+      <workItem from="1569722640959" duration="7041000" />
+      <workItem from="1569834133234" duration="2983000" />
+      <workItem from="1570502317533" duration="827000" />
+      <workItem from="1570591029643" duration="9614000" />
+      <workItem from="1570695417467" duration="2363000" />
+      <workItem from="1570780707023" duration="6382000" />
+      <workItem from="1570846481957" duration="1758000" />
+      <workItem from="1570865280416" duration="632000" />
+      <workItem from="1571122272013" duration="618000" />
+      <workItem from="1571193690178" duration="17428000" />
+      <workItem from="1571226526177" duration="190000" />
+      <workItem from="1571227739087" duration="1927000" />
+      <workItem from="1571293055789" duration="4183000" />
+      <workItem from="1571304940027" duration="49000" />
+      <workItem from="1571641260041" duration="842000" />
+      <workItem from="1571801934849" duration="4837000" />
+      <workItem from="1571884127572" duration="2692000" />
+      <workItem from="1571908862435" duration="3645000" />
+      <workItem from="1571973562584" duration="2353000" />
+      <workItem from="1572228825737" duration="605000" />
+      <workItem from="1572319987001" duration="2580000" />
+      <workItem from="1572427933435" duration="3390000" />
+      <workItem from="1572501704318" duration="2986000" />
+      <workItem from="1572524228000" duration="2568000" />
+      <workItem from="1572580493036" duration="1069000" />
+      <workItem from="1572603201792" duration="1083000" />
+      <workItem from="1573458332223" duration="1890000" />
+      <workItem from="1573476850543" duration="1289000" />
+      <workItem from="1573702435206" duration="1654000" />
+      <workItem from="1573784710649" duration="4500000" />
+      <workItem from="1574045708363" duration="1398000" />
+      <workItem from="1574047937035" duration="28451000" />
+      <workItem from="1574221120945" duration="10350000" />
+      <workItem from="1574302899315" duration="6306000" />
+      <workItem from="1574389748102" duration="3061000" />
+      <workItem from="1574408438581" duration="1655000" />
+      <workItem from="1574648514017" duration="3434000" />
+      <workItem from="1574753176293" duration="5193000" />
+      <workItem from="1574827004699" duration="11990000" />
+      <workItem from="1574854693110" duration="5890000" />
+      <workItem from="1574930258764" duration="8711000" />
+      <workItem from="1575032645068" duration="547000" />
+      <workItem from="1575033678587" duration="82000" />
+      <workItem from="1575253821340" duration="4813000" />
+      <workItem from="1575287865244" duration="92000" />
+      <workItem from="1575342051226" duration="898000" />
+      <workItem from="1575367662247" duration="349000" />
+      <workItem from="1575425980508" duration="2604000" />
+      <workItem from="1575429273554" duration="3330000" />
+      <workItem from="1575463213893" duration="5621000" />
+      <workItem from="1575540632829" duration="650000" />
+      <workItem from="1575598955933" duration="2471000" />
+      <workItem from="1575870960445" duration="130000" />
+      <workItem from="1575893631240" duration="725000" />
+      <workItem from="1575944551448" duration="66000" />
+      <workItem from="1575959165366" duration="736000" />
+      <workItem from="1576136086676" duration="2686000" />
+      <workItem from="1576153036863" duration="661000" />
+      <workItem from="1576203761378" duration="537000" />
+      <workItem from="1576235997303" duration="3233000" />
+      <workItem from="1576464003583" duration="3611000" />
+      <workItem from="1576479285168" duration="1221000" />
+      <workItem from="1576657636572" duration="5164000" />
+      <workItem from="1576813917332" duration="599000" />
+      <workItem from="1577159852893" duration="171000" />
+      <workItem from="1577172212378" duration="291000" />
+      <workItem from="1577172881167" duration="7134000" />
+      <workItem from="1577265585593" duration="3953000" />
+      <workItem from="1577326700298" duration="3797000" />
+      <workItem from="1577352848372" duration="3143000" />
+      <workItem from="1577415664664" duration="2111000" />
+      <workItem from="1577672252293" duration="2570000" />
+      <workItem from="1577932446602" duration="2260000" />
+      <workItem from="1577971002470" duration="618000" />
+      <workItem from="1578106788921" duration="1937000" />
+      <workItem from="1578278116947" duration="349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="818802000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="549" y="292" width="1853" height="1053" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4329609" visible="true" weight="0.22080797" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.56703913" side_tool="true" visible="true" weight="0.22080797" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32949087" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28941685" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002767" side_tool="true" weight="0.17687075" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32938388" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.4997233" visible="true" weight="0.22510822" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30386052" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32949087" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32949087" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.15658021" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/include/c++/7/thread">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/launcherStateMachineNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mapping.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/Mapping.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#400#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/Mission.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/Manual.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="e#401#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Manual.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/Tracking.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#401#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tracking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Report.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/Report.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
+          <folding>
+            <element signature="e#401#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/Automatic.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+          <folding>
+            <element signature="e#401#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6644">
+          <caret line="302" column="24" selection-start-line="302" selection-start-column="24" selection-end-line="302" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScrubberStates.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/StateMachine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/launcher_state_machine/ScrubberStates.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Automatic.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="363" column="66" lean-forward="true" selection-start-line="363" selection-start-column="66" selection-end-line="363" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

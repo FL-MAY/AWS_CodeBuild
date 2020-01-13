@@ -1,0 +1,3 @@
+nav_msgs/Path zone
+---
+nav_msgs/Path[] paths

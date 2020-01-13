@@ -1,0 +1,13 @@
+<launch>
+  <param name="/use_sim_time" value="true" />
+
+  <include file="$(find mapper)/launch/mapper.launch">
+    <arg name="open_rviz" value="false" />
+  </include>
+
+  <node pkg="rviz" type="rviz" name="rviz" required="true"
+        args="-d $(find mapper)/rviz/demo_2d.rviz"/>
+
+  <node name="playbag" pkg="rosbag" type="play"
+      args="--clock $(arg bag_filename) --rate=10" />
+</launch>

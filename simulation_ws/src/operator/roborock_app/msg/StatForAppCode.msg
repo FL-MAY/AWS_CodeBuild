@@ -1,0 +1,3 @@
+uint8 CLEAN = 1
+uint8 CLEAN_PAUSE = 2
+uint8 CLEAN_STOPPED = 3

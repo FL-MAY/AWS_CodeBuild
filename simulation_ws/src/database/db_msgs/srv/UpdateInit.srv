@@ -1,0 +1,3 @@
+uint32 id
+nav_msgs/Path new_init
+---

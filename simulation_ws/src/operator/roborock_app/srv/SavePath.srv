@@ -1,0 +1,6 @@
+int32 regionId
+#类型为roborock_app/PathType
+uint8 type
+string name
+---
+int8 errCode

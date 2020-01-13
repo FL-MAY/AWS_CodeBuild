@@ -1,0 +1,11 @@
+uint8  KEEPOUT     = 75     #Zone should never enter
+uint8  CLEAN       = 80     #Zone for cleaning
+uint8  SLOWDOWN    = 85     #Zone for slow down
+uint8  INIT_GLOBAL = 99     #INIT ZONE FOR WHOLE MAP 
+uint8  INIT        = 100    #INIT ZONE FOR RELOCATION
+uint8  REFILL      = 101    #Refill clean water
+uint8  DUMP        = 102    #Dump dirty water
+uint8  REPD        = 103    #Refill plus dump
+uint8  CHARGING    = 104    #Charging station
+uint8  ELEVATOR    = 105    #Elevator
+uint8  PARKING     = 106    #Parking lot  

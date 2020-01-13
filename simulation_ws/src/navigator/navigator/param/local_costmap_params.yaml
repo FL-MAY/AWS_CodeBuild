@@ -1,0 +1,35 @@
+local_costmap:
+  global_frame: map
+  robot_base_frame: base_link
+
+  update_frequency: 5.0
+  publish_frequency: 2.0
+  transform_tolerance: 0.5  
+
+  static_map: false  
+  rolling_window: true
+  width: 7
+  height: 7
+  resolution: 0.05
+
+  plugins:
+     - {name: ObstacleLayer,    type: "costmap_2d::ObstacleLayer"}
+     - {name: RangeSensorLayer, type: "range_sensor_layer::RangeSensorLayer"}
+     - {name: costmap_prohibition_layer, type: "costmap_prohibition_layer_namespace::CostmapProhibitionLayer"}
+     - {name: InflationLayer,   type: "costmap_2d::InflationLayer"}
+
+  RangeSensorLayer:
+    topics: ["/ultrasonic_dis"]
+
+  ObstacleLayer:
+    observation_sources: scan
+    scan: {sensor_frame: laser, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+
+  costmap_prohibition_layer:
+    enabled: true
+    fill_polygons: true
+
+  InflationLayer:
+    inflation_radius: 0.3
+    cost_scaling_factor: 3.0
+

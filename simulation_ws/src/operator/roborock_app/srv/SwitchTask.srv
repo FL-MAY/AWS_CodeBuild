@@ -1,0 +1,3 @@
+---
+#参考CmdErrCode.msg
+int8  errCode

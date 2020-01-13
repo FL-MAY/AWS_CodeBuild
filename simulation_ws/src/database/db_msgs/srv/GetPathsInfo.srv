@@ -1,0 +1,5 @@
+uint32[] paths
+---
+geometry_msgs/Point lower_bound
+geometry_msgs/Point upper_bound
+

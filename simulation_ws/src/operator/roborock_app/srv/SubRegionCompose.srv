@@ -1,0 +1,5 @@
+int32 regionId
+string subRegionName
+int32[] subRegionIds 
+---
+int8 errCode

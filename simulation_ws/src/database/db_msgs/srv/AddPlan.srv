@@ -1,0 +1,6 @@
+string name
+uint32 map_id
+uint8  type
+Task[] ordered_tasks
+---
+uint32 plan_id
