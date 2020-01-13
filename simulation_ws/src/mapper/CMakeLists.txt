@@ -175,7 +175,7 @@ install(DIRECTORY include/${PROJECT_NAME}/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
 
-install(DIRECTORY bag config launch rviz
+install(DIRECTORY config launch rviz
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
