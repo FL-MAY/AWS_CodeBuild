@@ -16,7 +16,7 @@
 #include <costmap_2d/costmap_2d_ros.h>
 #include <dynamic_reconfigure/client.h>
 //#include <dwa_local_planner/DWAPlannerConfig.h>
-#include <teb_local_planner/TebLocalPlannerReconfigureConfig.h>
+//#include <teb_local_planner/TebLocalPlannerReconfigureConfig.h>
 #include <costmap_2d/InflationPluginConfig.h>
 #include <sys/prctl.h>
 #include <signal.h>
@@ -135,7 +135,7 @@ namespace rock::scrubber::launcher {
 		bool exe_path_ol_;
 		bool get_path_ol_;
 		//bool dwa_config_ol_;
-		bool teb_config_ol_;
+		//bool teb_config_ol_;
 		bool inf_config_ol_;
 		bool enable_avoidance_;
 
@@ -162,11 +162,11 @@ namespace rock::scrubber::launcher {
 
 		std::unique_ptr<dynamic_reconfigure::Client<costmap_2d::InflationPluginConfig>>                   inf_client_;
 		//std::unique_ptr<dynamic_reconfigure::Client<dwa_local_planner::DWAPlannerConfig>>                 dwa_client_;
-		std::unique_ptr<dynamic_reconfigure::Client<teb_local_planner::TebLocalPlannerReconfigureConfig>> teb_client_;
+		//std::unique_ptr<dynamic_reconfigure::Client<teb_local_planner::TebLocalPlannerReconfigureConfig>> teb_client_;
 		std::shared_ptr<ScrubberStates>                                                                   states_;
 		std::shared_ptr<costmap_2d::Costmap2DROS>                                                         costmap_;
 		//dwa_local_planner::DWAPlannerConfig                                                               dwa_config_;
-		teb_local_planner::TebLocalPlannerReconfigureConfig                                               teb_config_;
+		//teb_local_planner::TebLocalPlannerReconfigureConfig                                               teb_config_;
 		costmap_2d::InflationPluginConfig                                                                 inf_config_;
 
 	};
