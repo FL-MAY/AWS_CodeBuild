@@ -68,7 +68,9 @@ add_library(Automatic
 
 add_dependencies(Automatic
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
-                 ${catkin_EXPORTED_TARGETS})
+                 ${catkin_EXPORTED_TARGETS}
+		 ${dwa_local_planner_LIB}
+		 ${teb_local_planner_LIB})
 
 add_library(Mapping
             src/Mapping.cpp)
