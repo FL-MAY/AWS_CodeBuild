@@ -148,7 +148,7 @@ add_executable(cmd_vel_smoother src/cmd_vel_smoother.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(cmd_vel_smoother ${PROJECT_NAME}_gencfg ${PROJECT_NAME}_genmsg)
+add_dependencies(cmd_vel_smoother ${PROJECT_NAME}_gencfg ${PROJECT_NAME}_generate_messages_cpp)
 #add_dependencies(record_path ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 #add_dependencies(test_path_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
@@ -173,7 +173,7 @@ install(PROGRAMS
   scripts/planner_sm.py
   scripts/smach_polyfill.py
   scripts/wait_for_goal.py
-  scripts/navigation.py
+  scripts/navigation_sm.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
