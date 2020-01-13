@@ -15,8 +15,8 @@ find_package(catkin REQUIRED COMPONENTS
              amcl
              tf2
              tf2_ros
-	     dwa_local_planner
-	     teb_local_planner
+	     ##dwa_local_planner
+	     ##teb_local_planner
              )
 
 catkin_package(
