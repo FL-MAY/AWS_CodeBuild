@@ -22,8 +22,8 @@ namespace rock::scrubber::launcher {
 			  get_path_(new GetPath("move_base_flex/get_path", true)),
 			  inf_client_(new dynamic_reconfigure::Client<costmap_2d::InflationPluginConfig>(
 					  "/move_base_flex/global_costmap/inflation")),
-			  dwa_client_(new dynamic_reconfigure::Client<dwa_local_planner::DWAPlannerConfig>(
-					  "/move_base_flex/DWAPlannerROS")),
+			 // dwa_client_(new dynamic_reconfigure::Client<dwa_local_planner::DWAPlannerConfig>(
+			//		  "/move_base_flex/DWAPlannerROS")),
 			  teb_client_(new dynamic_reconfigure::Client<teb_local_planner::TebLocalPlannerReconfigureConfig>(
 					  "/move_base_flex/TebLocalPlannerROS")) {
 		if (!states) {
