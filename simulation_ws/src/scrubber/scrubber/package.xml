@@ -39,6 +39,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   <depend>roscpp</depend>
   <depend>db_msgs</depend>
+  <depend>amcl</depend>
   <depend>launcher_msgs</depend>
   <depend>scrubber_msgs</depend>
   <depend>roborock_app</depend>
