@@ -41,7 +41,7 @@ catkin_package(
 )
 
 add_executable(path_planning_node src/PathPlanningNode.cpp src/CleaningPathPlanner.cpp src/trajectory_generator_waypoint.cpp)
-add_dependencies(path_planning_node ${PROJECT_NAME}_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
+add_dependencies(path_planning_node ${PROJECT_NAME}_generate_messages_cpp ${${PROJECT_NAME}_EXPORTED_TARGETS})
 #add_executable(get_path_test src/GetPathTest.cpp)
 target_link_libraries(path_planning_node ${catkin_LIBRARIES} ${OpenCV_LIBS})
 #target_link_libraries(get_path_test ${catkin_LIBRARIES} ${OpenCV_LIBS})
