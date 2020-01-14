@@ -34,9 +34,9 @@ generate_messages(
 )
 
 catkin_package(
-  INCLUDE_DIRS include
+  ##INCLUDE_DIRS include
   CATKIN_DEPENDS message_runtime costmap_2d geometry_msgs nav_msgs roscpp tf message_generation std_msgs rospy
-  LIBRARIES path_coverage
+ ## LIBRARIES path_coverage
 )
 add_library(path_gen
             src/CleaningPathPlanner.cpp 
