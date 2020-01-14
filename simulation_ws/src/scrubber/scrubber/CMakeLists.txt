@@ -120,6 +120,7 @@ catkin_package(
 		#  DEPENDS system_lib
 )
 
+find_library(path_coverage_LIB path_coverage)
 ###########
 ## Build ##
 ###########
@@ -172,7 +173,8 @@ target_link_libraries(Scrubber
                       scrubber_util
                       Mechanism
                       ${Boost_LIBRARIES}
-                      ${catkin_LIBRARIES})
+                      ${catkin_LIBRARIES}
+		      ${path_coverage_LIB})
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
