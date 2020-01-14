@@ -35,7 +35,7 @@ generate_messages(
 
 catkin_package(
   INCLUDE_DIRS include
-  CATKIN_DEPENDS message_runtime costmap_2d geometry_msgs nav_msgs roscpp tf message_generation std_msgs std_srvs rospy
+  CATKIN_DEPENDS message_runtime costmap_2d geometry_msgs nav_msgs roscpp tf message_generation std_msgs rospy
   LIBRARIES path_coverage
   DEPENDS
 )
