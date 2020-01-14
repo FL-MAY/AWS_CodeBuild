@@ -37,11 +37,18 @@ catkin_package(
   INCLUDE_DIRS include
   CATKIN_DEPENDS message_runtime costmap_2d geometry_msgs nav_msgs roscpp tf message_generation std_msgs rospy
   LIBRARIES path_coverage
-  DEPENDS
 )
-
-add_executable(path_planning_node src/PathPlanningNode.cpp src/CleaningPathPlanner.cpp src/trajectory_generator_waypoint.cpp)
-add_dependencies(path_planning_node ${PROJECT_NAME}_generate_messages_cpp ${${PROJECT_NAME}_EXPORTED_TARGETS})
+add_library(path_gen
+            src/CleaningPathPlanner.cpp 
+            src/trajectory_generator_waypoint.cpp)
+add_dependencies(path_gen ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(path_gen
+                      ${catkin_LIBRARIES})
+add_executable(path_planning_node src/PathPlanningNode.cpp)
+add_dependencies(path_planning_node ${PROJECT_NAME}_generate_messages_cpp ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 #add_executable(get_path_test src/GetPathTest.cpp)
-target_link_libraries(path_planning_node ${catkin_LIBRARIES} ${OpenCV_LIBS})
+target_link_libraries(path_planning_node
+                    path_gen
+                    ${catkin_LIBRARIES} 
+                    ${OpenCV_LIBS})
 #target_link_libraries(get_path_test ${catkin_LIBRARIES} ${OpenCV_LIBS})
