@@ -119,7 +119,6 @@ catkin_package(
 		#  DEPENDS system_lib
 )
 
-find_library(path_coverage_LIB path_coverage)
 ###########
 ## Build ##
 ###########
