@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
              tf2_ros
              amcl
 	     path_coverage
+	     scrubber_msgs
              )
 
 ## System dependencies are found with CMake's conventions
