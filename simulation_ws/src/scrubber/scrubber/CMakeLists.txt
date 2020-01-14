@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
              tf2
              tf2_ros
              amcl
+	     path_coverage
              )
 
 ## System dependencies are found with CMake's conventions
@@ -119,7 +120,6 @@ catkin_package(
 		#  DEPENDS system_lib
 )
 
-find_library(path_coverage_LIB path_coverage)
 ###########
 ## Build ##
 ###########
@@ -158,8 +158,7 @@ add_dependencies(Mechanism
 
 target_link_libraries(Mechanism
                       ${Boost_LIBRARIES}
-                      ${catkin_LIBRARIES}
-		      ${path_coverage_LIB})
+                      ${catkin_LIBRARIES})
 
 add_library(Scrubber
             src/Scrubber.cpp
@@ -173,8 +172,7 @@ target_link_libraries(Scrubber
                       scrubber_util
                       Mechanism
                       ${Boost_LIBRARIES}
-                      ${catkin_LIBRARIES}
-		      ${path_coverage_LIB})
+                      ${catkin_LIBRARIES})
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
