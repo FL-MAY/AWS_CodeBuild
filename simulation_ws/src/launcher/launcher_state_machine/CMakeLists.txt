@@ -17,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
              tf2_ros
 	     dwa_local_planner
 	     teb_local_planner
+	     costmap_prohibition_layer
              )
 
 catkin_package(
@@ -33,6 +34,7 @@ catkin_package(
 		amcl
 		dwa_local_planner
 	        teb_local_planner
+		costmap_prohibition_layer
 		#  DEPENDS system_lib
 )
 
