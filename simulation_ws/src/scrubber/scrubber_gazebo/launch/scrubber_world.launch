@@ -18,4 +18,5 @@
   </node>
 
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model CleaningCar -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
+  <include file="$(find launcher_state_machine)/launch/sim_scrubber_launcher.launch"/>
 </launch>
