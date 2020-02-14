@@ -1,13 +1,13 @@
 <launch>
- <node pkg = "launcher_state_machine" type="launcher_state_machine_node" name="launcher"  respawn="true" output="screen">
-  <rosparam file="$(find launcher_state_machine)/param/automatic_costmap.yaml" command="load" />  
- </node>
+  <node pkg = "launcher_state_machine" type="launcher_state_machine_node" name="launcher"  respawn="true" output="screen">
+    <rosparam file="$(find launcher_state_machine)/param/automatic_costmap.yaml" command="load" />  
+  </ node>
 
- <node pkg = "database" type = "scrubber_database" name = "scrubber_database" respawn="true" output="screen">
-  <param name = "db_path" type = "string" value = "$(find database)/db/test.db" />
- </node>
+  <node pkg = "database" type = "scrubber_database" name = "scrubber_database" respawn="true" output="screen">
+    <param name = "db_path" type = "string" value = "$(find database)/db/test.db" />
+  </ node>
 
- <node pkg = "scrubber" type="scrubber_node" name="scrubber" respawn="true" output="screen" />
+  <node pkg = "scrubber" type="scrubber_node" name="scrubber" respawn="true" output="screen" />
  
  <!-- RoboScrub 
   <param name="robot_description" command="$(find xacro)/xacro '$(find CleaningCar)/urdf/CleaningCar.urdf.xacro'"/>
@@ -16,4 +16,4 @@
   </node>
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
  -->
-</launch>
+</ launch>
