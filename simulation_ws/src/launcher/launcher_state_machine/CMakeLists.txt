@@ -124,6 +124,11 @@ target_link_libraries(launcher_state_machine_node
 install(TARGETS
 	StateMachine
 	Automatic
+	Mapping
+	Tracking
+	Manual
+	Report
+	ScrubberStates
 	launcher_state_machine_node
 	ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 	LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
