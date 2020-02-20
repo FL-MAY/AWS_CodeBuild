@@ -65,7 +65,7 @@ add_dependencies(ScrubberStates
                  ${catkin_EXPORTED_TARGETS})
 
 SET(LIBAutomatic_SRC Automatic.cpp)
-add_library(Automatic SHARED ${LIBAutomatic_SRC})
+add_library(Automatic SHARED src/Automatic.cpp)
 
 add_dependencies(Automatic
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
