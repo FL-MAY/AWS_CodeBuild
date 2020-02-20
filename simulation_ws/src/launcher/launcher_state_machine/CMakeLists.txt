@@ -62,7 +62,7 @@ add_dependencies(ScrubberStates
 		 ${${PROJECT_NAME}_EXPORTED_TARGETS}
                  ${catkin_EXPORTED_TARGETS})
 
-add_library(Automatic LIB src/Automatic.cpp)
+add_library(Automatic src/Automatic.cpp)
 
 add_dependencies(Automatic
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
