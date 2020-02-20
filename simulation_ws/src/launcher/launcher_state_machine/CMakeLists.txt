@@ -61,14 +61,13 @@ add_library(ScrubberStates
 
 
 add_dependencies(ScrubberStates
-		         ${${PROJECT_NAME}_EXPORTED_TARGETS}
+		 ${${PROJECT_NAME}_EXPORTED_TARGETS}
                  ${catkin_EXPORTED_TARGETS})
 
-add_library(Automatic
-            src/Automatic.cpp)
+SET(LIBAutomatic_SRC Automatic.cpp)
+add_library(Automatic SHARED ${LIBAutomatic_SRC})
 
-
-add_dependencies(Automatic
+add_dependencies(Automatic SHARED
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
                  ${catkin_EXPORTED_TARGETS})
 
@@ -132,12 +131,6 @@ target_link_libraries(launcher_state_machine_node
 ## Mark executables and/or libraries for installation
 install(TARGETS
 	StateMachine
-	ScrubberStates
-        Automatic
-        Mapping
-        Tracking
-        Manual
-        Report
 	launcher_state_machine_node
 	ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 	LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
