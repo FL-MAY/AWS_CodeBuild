@@ -54,18 +54,15 @@ add_library(StateMachine
             src/StateMachine.cpp
             )
 
-
 add_library(ScrubberStates
             src/ScrubberStates.cpp
             )
-
 
 add_dependencies(ScrubberStates
 		 ${${PROJECT_NAME}_EXPORTED_TARGETS}
                  ${catkin_EXPORTED_TARGETS})
 
-SET(LIBAutomatic_SRC Automatic.cpp)
-add_library(Automatic SHARED src/Automatic.cpp)
+add_library(Automatic LIB src/Automatic.cpp)
 
 add_dependencies(Automatic
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
@@ -74,29 +71,23 @@ add_dependencies(Automatic
 add_library(Mapping
             src/Mapping.cpp)
 
-
 add_library(Tracking
             src/Tracking.cpp)
-
 
 add_library(Manual
             src/Manual.cpp)
 
-
 add_library(Report
             src/Report.cpp)
-
 
 add_dependencies(Report
                  ${${PROJECT_NAME}_EXPORTED_TARGETS}
                  ${catkin_EXPORTED_TARGETS})
 
-
 target_link_libraries(Automatic ScrubberStates Report)
 target_link_libraries(Mapping ScrubberStates)
 target_link_libraries(Tracking ScrubberStates)
 target_link_libraries(Manual  ScrubberStates Report)
-
 target_link_libraries(StateMachine
                       ScrubberStates
                       Automatic
