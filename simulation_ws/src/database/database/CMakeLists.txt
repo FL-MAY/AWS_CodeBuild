@@ -54,7 +54,7 @@ target_link_libraries(scrubber_database DatabaseHelper)
 
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
-
+add_subdirectory(db)
 #############
 ## Install ##
 #############
