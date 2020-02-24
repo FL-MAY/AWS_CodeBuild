@@ -69,8 +69,8 @@ install(TARGETS
 	)
 
 install(FILES 
-        test.db "${CMAKE_CURRENT_SOURCE_DIR}/db/test.db"
-        DESTINATION "${CMAKE_BINARY_DIR}/db"
+        "${CMAKE_CURRENT_SOURCE_DIR}/db/test.db"
+        DESTINATION "${CMAKE_BINARY_DIR}"
 )
 ## Mark cpp header files for installation
 install(DIRECTORY database/include/${PROJECT_NAME}/
