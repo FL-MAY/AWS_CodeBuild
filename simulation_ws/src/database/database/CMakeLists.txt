@@ -55,7 +55,7 @@ target_link_libraries(scrubber_database DatabaseHelper)
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 
-
+add_subdirectory(db db)
 
 #############
 ## Install ##
@@ -70,6 +70,10 @@ install(TARGETS
 	RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 	)
 
+install(FILES 
+        test.db
+        DESTINATION ${db}
+)
 ## Mark cpp header files for installation
 install(DIRECTORY database/include/${PROJECT_NAME}/
         DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
