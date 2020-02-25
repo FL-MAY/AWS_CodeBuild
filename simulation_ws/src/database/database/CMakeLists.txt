@@ -68,7 +68,8 @@ install(TARGETS
 	RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 	)
 
-install(FILES db/test.db DESTINATION db)
+install(FILES db/test.db DESTINATION db
+        PERMISSIONS OWNER_WRITE OWNER_READ GROUP_WRITE GOURP_READ WORLD_WRITE WORLD_READ)
 
 ## Mark cpp header files for installation
 install(DIRECTORY database/include/${PROJECT_NAME}/
