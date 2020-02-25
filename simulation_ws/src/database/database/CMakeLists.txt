@@ -68,6 +68,8 @@ install(TARGETS
 	RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 	)
 
+install(FILES test.db DESTINATION db)
+
 ## Mark cpp header files for installation
 install(DIRECTORY database/include/${PROJECT_NAME}/
         DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
