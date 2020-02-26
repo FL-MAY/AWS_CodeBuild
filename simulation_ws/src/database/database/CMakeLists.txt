@@ -70,7 +70,7 @@ install(TARGETS
 
 install(FILES db/test.db DESTINATION db
         PERMISSIONS OWNER_WRITE OWNER_READ OWNER_EXECUTE 
-	            GROUP_EXECUTE 
+	            GROUP_EXECUTE GROUP_READ
 	            WORLD_READ WORLD_EXECUTE)
 
 ## Mark cpp header files for installation
