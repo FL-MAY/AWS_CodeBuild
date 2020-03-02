@@ -68,9 +68,12 @@ install(TARGETS
 	RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 	)
 
-install(FILES db/test.db 
-        DESTINATION db
-        PERMISSIONS OWNER_WRITE OWNER_READ GROUP_READ WORLD_READ)
+catkin_install_python(PROGRAMS
+                      scripts/scrubber_db_generator.py
+                      DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+
+install(DIRECTORY launch db
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
 ## Mark cpp header files for installation
 install(DIRECTORY database/include/${PROJECT_NAME}/
