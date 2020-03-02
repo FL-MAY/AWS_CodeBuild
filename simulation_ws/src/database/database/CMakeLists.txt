@@ -72,7 +72,7 @@ catkin_install_python(PROGRAMS
                       scripts/scrubber_db_generator.py
                       DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
-install(DIRECTORY launch db
+install(DIRECTORY db
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
 ## Mark cpp header files for installation
