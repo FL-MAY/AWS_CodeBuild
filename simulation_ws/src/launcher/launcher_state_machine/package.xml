@@ -31,6 +31,7 @@
   <depend>amcl</depend>
   <depend>dwa_local_planner</depend>
   <depend>teb_local_planner</depend>
+  <depend>rosbridge_suite</depend>
   <depend>costmap_prohibition_layer</depend>
   <build_export_depend>actionlib</build_export_depend>
   <build_export_depend>geometry_msgs</build_export_depend>
