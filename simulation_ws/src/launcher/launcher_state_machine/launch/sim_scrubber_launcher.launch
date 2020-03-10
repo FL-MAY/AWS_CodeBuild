@@ -7,4 +7,7 @@
   </node>
   <node pkg = "scrubber" type="scrubber_node" name="scrubber" respawn="true" output="screen" />
   <include file="$(find scrubber_gazebo)/launch/scrubber_world.launch"/>
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" >
+    <arg name="port" value="9090" />
+  </include>
 </launch>
